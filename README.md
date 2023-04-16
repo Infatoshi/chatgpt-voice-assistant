@@ -39,7 +39,7 @@ webcam microphone. For example, if your webcam microphone is listed as "card 1" 
 `defaults.pcm.card 1`
 Save the changes to the configuration file by pressing Ctrl+O, then exit the text editor by pressing Ctrl+X.
 Finally, you can test your microphone by running the following command:
-arecord -f cd -D hw:1 | aplay
+`arecord -f cd -D hw:1 | aplay`
 This command will record audio from your mic and play it back through the default audio output device. If you hear 
 the sound, it means that your microphone is working correctly.
 
