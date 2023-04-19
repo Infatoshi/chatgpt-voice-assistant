@@ -43,6 +43,9 @@ Finally, you can test your microphone by running the following command:
 This command will record audio from your mic and play it back through the default audio output device. If you hear 
 the sound, it means that your microphone is working correctly.
 
+At some point in the process you may encounter a libespeak error on the raspberry pi. Running the following command on the terminal should fix it `sudo apt-get install libespeak1
+`.
+
 Great Job! Try running the script by navigating to the project folder via `cd folder_name` then running `python main.py`
 
 I respond the fastest to discord so shoot me a dm through that if you have any questions or errors, I plan on upgrading this project over time. ( Infatoshi Nakamoto#3233 )
