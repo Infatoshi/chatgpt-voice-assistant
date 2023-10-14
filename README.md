@@ -44,6 +44,8 @@ This command will record audio from your mic and play it back through the defaul
 the sound, it means that your microphone is working correctly.
 
 At some point in the process you may encounter a libespeak error on the raspberry pi. Running the following command on the terminal should fix it `sudo apt-get install libespeak1
+
+Follow me on Twitter - X: https://twitter.com/elliotarledge
 `.
 
 Great Job! Try running the script by navigating to the project folder via `cd folder_name` then running `python main.py`
